@@ -1,0 +1,7 @@
+package PyDataStore
+
+use SniperKernel   v*
+
+use Boost v* Externals
+
+macro PyDataStore_linkopts " -lSniperPythonLib "

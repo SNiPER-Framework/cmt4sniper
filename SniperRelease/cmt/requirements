@@ -1,0 +1,7 @@
+package SniperRelease
+author Zou Jiaheng <zoujh@ihep.ac.cn>
+
+use SniperPolicy    v*
+use SniperKernel    v*
+use DataBuffer      v*   SniperUtil
+use RootWriter      v*   SniperSvc

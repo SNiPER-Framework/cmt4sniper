@@ -1,0 +1,11 @@
+package RootWriter
+
+use SniperKernel   v*
+use ROOT  v* Externals
+
+use Boost v* Externals
+
+macro_append ROOT_linkopts " -lPyROOT " \
+             ROOT_NEW_TPYTHON " -lROOTTPython "
+
+macro RootWriter_linkopts " -lRootWriterLib "

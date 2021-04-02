@@ -1,0 +1,9 @@
+package SniperKernel
+
+use SniperPolicy   v*
+use Boost          v*   Externals
+
+macro SniperKernel_linkopts " -L`sniper-config --libdir` -lSniperKernel "
+
+include_path none
+include_dirs "`sniper-config --incdir`"
